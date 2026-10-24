@@ -1,8 +1,17 @@
 {
-  "name": "bd-bomber-bot",
-  "version": "1.0.0",
+  "name": "hacking-tool-bot",
+  "version": "3.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "collect": "node collector.js"
+  },
+  "engines": { "node": ">=18.0.0" },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "axios": "^1.7.7",
+    "multer": "^1.4.5-lts.1",
+    "body-parser": "^1.20.3"
   }
 }
