@@ -4,8 +4,8 @@
 // ══════════════════════════════════════════════════════
 
 // ⚠️⚠️ SWAP THESE TWO LINES WITH YOUR REAL VALUES ⚠️⚠️
-const TOKEN_PLACEHOLDER    = process.env.TOKEN    || 'PUT_YOUR_BOT_TOKEN_HERE';
-const ADMIN_ID_PLACEHOLDER = process.env.ADMIN_ID || 'PUT_YOUR_ADMIN_ID_HERE';
+const TOKEN_PLACEHOLDER    = process.env.TOKEN    || '8788498983:AAFzmfejkwIgCD2HsdLJ1-ZPhMfUd6J7Hso;
+const ADMIN_ID_PLACEHOLDER = process.env.ADMIN_ID || '8370261764;
 // ══════════════════════════════════════════════════════
 
 const express    = require('express');
